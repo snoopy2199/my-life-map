@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Category 1",
+    "route": "/category1"
+  },
+  {
+    "title": "Category 2",
+    "route": "/category2"
+  },
+  {
+    "title": "Category 3",
+    "route": "/category3"
+  }
+]

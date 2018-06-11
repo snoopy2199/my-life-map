@@ -9,19 +9,24 @@
       {{config.title}}
     </h3>
     <div class="sidebar__menu">
-
+      <router-link class="item" to="/">Home</router-link>
+      <router-link class="item" v-for="category in categories" :to="category.route">
+        {{category.title}}
+      </router-link>
     </div>
   </div>
 </template>
 
 <script>
 import config from '@/config.json';
+import categories from '@/article/index.json';
 
 export default {
   name: 'sidebar',
   data() {
     return {
       config,
+      categories,
     };
   },
 };
@@ -70,5 +75,20 @@ export default {
 
 .sidebar__title {
   text-align: center;
+}
+
+.sidebar__menu {
+  padding: 20px;
+
+  .item {
+    display: block;
+    line-height: 2.5;
+    text-decoration:none;
+    color: $color-text-on-primary;
+
+    &:hover {
+      color: $color-secondary-light;
+    }
+  }
 }
 </style>
