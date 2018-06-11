@@ -9,8 +9,9 @@
       {{config.title}}
     </h3>
     <div class="sidebar__menu">
-      <router-link class="item" to="/">Home</router-link>
-      <router-link class="item" v-for="category in categories" :to="category.route">
+      <router-link class="item" :class="{active: $route.path === '/'}" to="/">Home</router-link>
+      <router-link class="item" :class="{active: $route.path === category.route}"
+                   v-for="category in categories" :to="category.route">
         {{category.title}}
       </router-link>
     </div>
@@ -86,7 +87,7 @@ export default {
     text-decoration:none;
     color: $color-text-on-primary;
 
-    &:hover {
+    &:hover, &.active {
       color: $color-secondary-light;
     }
   }
