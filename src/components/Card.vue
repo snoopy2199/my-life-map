@@ -1,0 +1,160 @@
+<template>
+  <div class="card">
+    <a class="card__image" :href="imageLink" target="_blank">
+      <img class="layer image" :src="imageUrl" />
+      <div v-if="imageLink" class="layer mask usually-hide">
+        <span>{{imageSite}}</span>
+        <img class="open-in-new-icon" src="../assets/baseline_open_in_new_white_18dp.png" />
+      </div>
+    </a>
+    <div class="card__content">
+      <div class="wrapper">
+        <div class="primary">
+          <div class="title">{{title}}</div>
+          <div class="time">{{time}}</div>
+        </div>
+        <div class="more"></div>
+        <div class="supporting"></div>
+        <div class="tags"></div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'card',
+  props: {
+    title: {
+      type: String,
+      required: true,
+    },
+    imageUrl: {
+      type: String,
+      required: true,
+    },
+    imageSite: String,
+    imageLink: String,
+    star: Number,
+    short: String,
+    tags: Array,
+    time: {
+      type: String,
+      required: true,
+    },
+  },
+};
+</script>
+
+<style lang="scss">
+.card {
+  display: flex;
+  width: 500px;
+  height: 220px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 1px 1px 0 rgba(60, 64, 67, .08), 0 1px 3px 1px rgba(60, 64, 67, .16);
+}
+
+.card__image {
+  display: inline-block;
+  position: relative;
+  flex: 1;
+  height: 100%;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  .image {
+    object-fit: cover;
+  }
+
+  .layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .mask {
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+
+  .usually-hide {
+    opacity: 0;
+  }
+
+  &:hover {
+    .usually-hide {
+      opacity: 0.8;
+    }
+  }
+
+  .open-in-new-icon {
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+ }
+
+.card__content {
+  display: inline-block;
+  flex: 2;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-template-rows: 2fr 3fr 1fr;
+  }
+
+  .primary {
+    grid-column: 1;
+    grid-row: 1;
+    padding: 10px 15px;
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.7;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      width: 260px;
+    }
+    .time {
+      font-size: 14px;
+      color: #666666;
+    }
+  }
+
+  .more {
+    background-color: crimson;
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .supporting {
+    background-color: cornflowerblue;
+    grid-column: 1 / 3;
+    grid-row: 2;
+    padding: 10px 15px;
+  }
+
+  .tags {
+    background-color: gold;
+    grid-column: 1 / 3;
+    grid-row: 3;
+  }
+}
+</style>

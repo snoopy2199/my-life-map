@@ -26,7 +26,6 @@ body {
 }
 
 .app {
-  display: -webkit-flex;
   display: flex;
   height: 100vh;
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -34,7 +33,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .app__sidebar {
-  -webkit-flex: none;
   flex: none;
   width: 280px;
   overflow-y: scroll;
@@ -42,8 +40,8 @@ body {
   color: $color-text-on-primary;
 }
 .app__main {
-  -webkit-flex: 1;
   flex: 1;
   overflow-y: scroll;
+  background-color: $color-background;
 }
 </style>
