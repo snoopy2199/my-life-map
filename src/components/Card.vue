@@ -13,7 +13,11 @@
           <div class="title">{{title}}</div>
           <div class="time">{{time}}</div>
         </div>
-        <div class="more"></div>
+        <div class="more">
+          <router-link v-if="detail" class="more-link" :to="detail">
+            <img class="more-icon" src="../assets/baseline_call_made_black_18dp.png" />
+          </router-link>
+        </div>
         <div class="supporting"></div>
         <div class="tags"></div>
       </div>
@@ -42,6 +46,7 @@ export default {
       type: String,
       required: true,
     },
+    detail: String,
   },
 };
 </script>
@@ -139,9 +144,23 @@ export default {
   }
 
   .more {
-    background-color: crimson;
     grid-column: 2;
     grid-row: 1;
+
+    .more-link {
+      display: block;
+      margin: 14px 5px;
+      opacity: 0.4;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    .more-icon {
+      width: 25px;
+      height: 25px;
+    }
   }
 
   .supporting {

@@ -10,6 +10,7 @@
         :short="article.short"
         :tags="article.tags"
         :time="article.time"
+        :detail="article.detail"
       />
     </div>
   </div>
