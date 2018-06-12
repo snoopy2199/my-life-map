@@ -20,7 +20,7 @@
 
 <script>
 import config from '@/config.json';
-import categories from '@/article/index.json';
+import categories from '@/articles/index.json';
 
 export default {
   name: 'sidebar',
