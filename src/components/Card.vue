@@ -18,7 +18,10 @@
             <img class="more-icon" src="../assets/baseline_call_made_black_18dp.png" />
           </router-link>
         </div>
-        <div class="supporting"></div>
+        <div class="supporting">
+          <Rating v-if="star" :star="star" />
+          <div class="short">{{short}}</div>
+        </div>
         <div class="tags"></div>
       </div>
     </div>
@@ -26,6 +29,8 @@
 </template>
 
 <script>
+import Rating from '@/components/Rating.vue';
+
 export default {
   name: 'card',
   props: {
@@ -47,6 +52,9 @@ export default {
       required: true,
     },
     detail: String,
+  },
+  components: {
+    Rating,
   },
 };
 </script>
@@ -164,10 +172,15 @@ export default {
   }
 
   .supporting {
-    background-color: cornflowerblue;
     grid-column: 1 / 3;
     grid-row: 2;
     padding: 10px 15px;
+    max-height: 110px;
+    overflow: hidden;
+
+    .rating {
+      margin-left: -3px;
+    }
   }
 
   .tags {
