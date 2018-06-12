@@ -22,7 +22,11 @@
           <Rating v-if="star" :star="star" />
           <div class="short">{{short}}</div>
         </div>
-        <div class="tags"></div>
+        <div class="tags">
+          <div v-for="tag in tags" class="tag" :style="{'background-color': tag.color}">
+            {{tag.text}}
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -184,9 +188,17 @@ export default {
   }
 
   .tags {
-    background-color: gold;
     grid-column: 1 / 3;
     grid-row: 3;
+    padding: 0 10px;
+
+    .tag {
+      display: inline-block;
+      margin: 2px 3px;
+      padding: 3px 10px;
+      border-radius: 5px;
+      font-size: 12px;
+    }
   }
 }
 </style>
