@@ -1,6 +1,6 @@
 <template>
   <div class="rating">
-    <div v-for="i in 5" :key="star + i" class="rating__star">
+    <div v-for="i in 5" :key="`star${i}`" class="rating__star">
       <img v-if="calculateStarType(i) === 1" src="../assets/baseline-star-24px.svg"/>
       <img v-else-if="calculateStarType(i) === 0.5" src="../assets/baseline-star_half-24px.svg"/>
       <img v-else src="../assets/baseline-star_border-24px.svg"/>

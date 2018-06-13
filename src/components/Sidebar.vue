@@ -11,7 +11,7 @@
     <div class="sidebar__menu">
       <router-link class="item" :class="{active: $route.path === '/'}" to="/">Home</router-link>
       <router-link class="item" :class="{active: $route.path === category.route}"
-                   v-for="category in categories" :to="category.route">
+                   v-for="category in categories" :key="category.directory" :to="category.route">
         {{category.title}}
       </router-link>
     </div>

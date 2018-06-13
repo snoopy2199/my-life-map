@@ -23,7 +23,8 @@
           <div class="short">{{short}}</div>
         </div>
         <div class="tags">
-          <div v-for="tag in tags" class="tag" :style="{'background-color': tag.color}">
+          <div v-for="tag in tags" :key="tag.text"
+               class="tag" :style="{'background-color': tag.color}">
             {{tag.text}}
           </div>
         </div>
