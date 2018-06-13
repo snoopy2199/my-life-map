@@ -23,8 +23,8 @@ export default {
         const converter = new showdown.Converter();
         this.markdownHtml = converter.makeHtml(markdown);
       })
-      .catch((e) => {
-        console.log(e);
+      .catch(() => {
+        this.$router.push('/404');
       });
   },
 };
