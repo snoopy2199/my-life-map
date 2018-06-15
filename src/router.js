@@ -9,17 +9,13 @@ import categories from './articles/index.json';
 
 Vue.use(Router);
 
+const promises = [];
 const routes = [
   {
     path: '/',
     name: 'home',
     component: Home,
-  },
-  {
-    path: '/404',
-    name: 'not-found',
-    component: NotFound,
-  },
+  }
 ];
 
 categories.forEach((category) => {
@@ -28,18 +24,30 @@ categories.forEach((category) => {
     name: category.directory,
     component: Category,
   });
+
+  promises.push(import(`./articles/${category.directory}/index.json`));
+});
+
+const myRouter = Promise.all(promises).then((articlesInCategories) => {
+  articlesInCategories.forEach((articles) => {
+    articles.default.forEach((article) => {
+      if ('detail' in article) {
+        routes.push({
+          path: article.detail.route,
+          component: Article,
+          meta: article
+        });
+      }
+    });
+  });
   routes.push({
-    path: `${category.route}/:file_name`,
-    name: `${category.directory}-article`,
-    component: Article,
+    path: '*',
+    component: NotFound,
+  });
+
+  return new Router({
+    routes,
   });
 });
 
-routes.push({
-  path: '*',
-  component: NotFound,
-});
-
-export default new Router({
-  routes,
-});
+export default myRouter;

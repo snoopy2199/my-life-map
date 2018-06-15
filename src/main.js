@@ -4,7 +4,10 @@ import router from './router';
 
 Vue.config.productionTip = false;
 
-new Vue({
-  router,
-  render: h => h(App),
-}).$mount('#app');
+router.then((myRouter) => {
+  new Vue({
+    router: myRouter,
+    render: h => h(App),
+  }).$mount('#app');
+});
+

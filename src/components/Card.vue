@@ -14,7 +14,7 @@
           <div class="time">{{time}}</div>
         </div>
         <div class="more">
-          <router-link v-if="detail" class="more-link" :to="detail">
+          <router-link v-if="detail" class="more-link" :to="detail.route">
             <img class="more-icon" src="../assets/baseline_call_made_black_18dp.png" />
           </router-link>
         </div>
@@ -56,7 +56,7 @@ export default {
       type: String,
       required: true,
     },
-    detail: String,
+    detail: Object,
   },
   components: {
     Rating,

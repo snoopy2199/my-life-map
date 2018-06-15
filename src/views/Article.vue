@@ -16,13 +16,10 @@ export default {
     };
   },
   mounted() {
-    import(`../articles${this.$route.path}.md`)
+    import(`../articles${this.$route.meta.detail.directory}`)
       .then((module) => {
         const converter = new showdown.Converter();
         this.markdownHtml = converter.makeHtml(module.default);
-      })
-      .catch(() => {
-        this.$router.push('/404');
       });
   },
 };

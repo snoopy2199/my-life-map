@@ -19,7 +19,10 @@
       }
     ],
     "time": "2018/06/12",
-    "detail": "/category1/item3"
+    "detail": {
+      "directory": "/category1/item3.md",
+      "route": "/category1/item3"
+    }
   },
   {
     "title": "Item 1 - 2",
