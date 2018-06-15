@@ -8,8 +8,6 @@
 import showdown from 'showdown';
 import 'github-markdown-css/github-markdown.css';
 
-import markdown from '@/articles/category1/item3.md';
-
 export default {
   name: 'theArticle',
   data() {
@@ -19,9 +17,9 @@ export default {
   },
   mounted() {
     import(`../articles${this.$route.path}.md`)
-      .then(() => {
+      .then((module) => {
         const converter = new showdown.Converter();
-        this.markdownHtml = converter.makeHtml(markdown);
+        this.markdownHtml = converter.makeHtml(module.default);
       })
       .catch(() => {
         this.$router.push('/404');
