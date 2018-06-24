@@ -15,7 +15,7 @@ const routes = [
     path: '/',
     name: 'home',
     component: Home,
-  }
+  },
 ];
 
 categories.forEach((category) => {
@@ -35,7 +35,7 @@ const myRouter = Promise.all(promises).then((articlesInCategories) => {
         routes.push({
           path: article.detail.route,
           component: Article,
-          meta: article
+          meta: article,
         });
       }
     });
