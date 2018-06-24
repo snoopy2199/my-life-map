@@ -33,7 +33,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .app__sidebar {
-  flex: none;
   width: 280px;
   overflow-y: scroll;
   background-color: $color-primary;
