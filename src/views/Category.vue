@@ -1,6 +1,6 @@
 <template>
   <div class="category">
-    <div v-for="article in articles" class="category__card-wrap" :key="article.directory">
+    <div v-for="article in $route.meta" class="category__card-wrap" :key="article.directory">
       <Card
         :title="article.title"
         :imageUrl="article.image.url"
@@ -23,26 +23,6 @@ export default {
   name: 'category',
   components: {
     Card,
-  },
-  data() {
-    return {
-      articles: [],
-    };
-  },
-  watch: {
-    '$route.name': function getArticles(val) {
-      this.getArticles(val);
-    },
-  },
-  mounted() {
-    this.getArticles(this.$route.name);
-  },
-  methods: {
-    getArticles: function getArticles(directory) {
-      import(`../articles/${directory}/index.json`).then((module) => {
-        this.articles = module.default;
-      });
-    },
   },
 };
 </script>

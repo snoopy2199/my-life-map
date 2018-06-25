@@ -10,27 +10,46 @@ import categories from './articles/index.json';
 Vue.use(Router);
 
 const promises = [];
-const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: Home,
-  },
-];
+const routes = [];
+const data = [];
 
 categories.forEach((category) => {
-  routes.push({
-    path: category.route,
-    name: category.directory,
-    component: Category,
-  });
-
   promises.push(import(`./articles/${category.directory}/index.json`));
 });
 
-const myRouter = Promise.all(promises).then((articlesInCategories) => {
-  articlesInCategories.forEach((articles) => {
-    articles.default.forEach((article) => {
+const prepareData = (categoriesData) => {
+  categoriesData.forEach((categoryData, index) => {
+    data.push({
+      title: categories[index].title,
+      route: categories[index].route,
+      directory: categories[index].directory,
+      data: categoryData.default,
+    });
+  });
+};
+
+const myRouter = Promise.all(promises).then((categoriesData) => {
+  prepareData(categoriesData);
+
+  // Home
+  routes.push({
+    path: '/',
+    name: 'home',
+    component: Home,
+    meta: data,
+  });
+
+  data.forEach((category) => {
+    // Category
+    routes.push({
+      path: category.route,
+      name: category.directory,
+      component: Category,
+      meta: category.data,
+    });
+
+    // Article
+    category.data.forEach((article) => {
       if ('detail' in article) {
         routes.push({
           path: article.detail.route,
@@ -40,6 +59,8 @@ const myRouter = Promise.all(promises).then((articlesInCategories) => {
       }
     });
   });
+
+  // NotFound
   routes.push({
     path: '*',
     component: NotFound,
