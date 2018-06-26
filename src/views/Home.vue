@@ -82,12 +82,6 @@ export default {
 </script>
 
 <style lang="scss">
-.home {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-}
-
 .home__message {
   display: flex;
   position: relative;
@@ -120,11 +114,7 @@ export default {
 }
 
 .home__board {
-  flex: 1 1 auto;
-  display: grid;
-
   .row {
-    grid-column: 1;
     margin: 20px 50px;
   }
 
