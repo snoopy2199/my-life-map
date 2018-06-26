@@ -119,7 +119,7 @@ export default {
     margin-left: 5px;
     margin-bottom: 2px;
   }
- }
+}
 
 .card__content {
   display: inline-block;

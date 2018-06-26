@@ -9,19 +9,61 @@
       <div class="row">
         <h4 class="title">Pin Items</h4>
         <div class="item-group">
-          <div class="item">hi</div>
-          <div class="item">hi</div>
-          <div class="item">hi</div>
-          <div class="item">hi</div>
+          <Mark
+            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
+            imageSite="IMDb"
+            imageLink="http://www.imdb.com/title/tt2380307/"
+            description="hey!"
+            :detail="{
+              directory: '/category1/item3.md',
+              route: '/category1/item3',
+            }"
+          />
+          <Mark
+            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
+            imageSite="IMDb"
+            imageLink="http://www.imdb.com/title/tt2380307/"
+            description="hey!"
+            :detail="{
+              directory: '/category1/item3.md',
+              route: '/category1/item3',
+            }"
+          />
+          <Mark
+            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
+            imageSite="IMDb"
+            imageLink="http://www.imdb.com/title/tt2380307/"
+            description="hey!"
+            :detail="{
+              directory: '/category1/item3.md',
+              route: '/category1/item3',
+            }"
+          />
+          <Mark
+            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
+            imageSite="IMDb"
+            imageLink="http://www.imdb.com/title/tt2380307/"
+            description="hey!"
+            :detail="{
+              directory: '/category1/item3.md',
+              route: '/category1/item3',
+            }"
+          />
         </div>
       </div>
       <div class="row">
         <h4 class="title">Latest Items</h4>
         <div class="item-group">
-          <div class="item">hi</div>
-          <div class="item">hi</div>
-          <div class="item">hi</div>
-          <div class="item">hi</div>
+          <Mark
+            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
+            imageSite="IMDb"
+            imageLink="http://www.imdb.com/title/tt2380307/"
+            description="hey!"
+            :detail="{
+              directory: '/category1/item3.md',
+              route: '/category1/item3',
+            }"
+          />
         </div>
       </div>
     </div>
@@ -29,8 +71,13 @@
 </template>
 
 <script>
+import Mark from '@/components/Mark.vue';
+
 export default {
   name: 'home',
+  components: {
+    Mark,
+  },
 };
 </script>
 
@@ -84,14 +131,12 @@ export default {
   .title {
     color: #4c4c4c;
     margin-top: 0;
+    margin-bottom: 15px;
   }
 
   .item-group {
     display: grid;
-
-    .item {
-      grid-row: 1;
-    }
+    grid-template: auto / 1fr 1fr 1fr 1fr;
   }
 }
 </style>
