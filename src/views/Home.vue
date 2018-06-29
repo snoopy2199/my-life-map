@@ -22,14 +22,13 @@
         <h4 class="title">Latest Items</h4>
         <div class="item-group">
           <Mark
-            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
-            imageSite="IMDb"
-            imageLink="http://www.imdb.com/title/tt2380307/"
-            description="hey!"
-            :detail="{
-              directory: '/category1/item3.md',
-              route: '/category1/item3',
-            }"
+            v-for="latestItem in latestItems"
+            :key="latestItem.title"
+            :imageUrl="latestItem.image.url"
+            :imageSite="latestItem.image.site"
+            :imageLink="latestItem.image.link"
+            :description="latestItem.time"
+            :detail="latestItem.detail"
           />
         </div>
       </div>
@@ -50,6 +49,7 @@ export default {
     return {
       message: config.message,
       pinItems: [],
+      latestItems: [],
     };
   },
   components: {
@@ -57,6 +57,7 @@ export default {
   },
   mounted() {
     this.findPinItems();
+    this.findLatestItems(4);
   },
   methods: {
     findPinItems: function findPinItems() {
@@ -85,6 +86,17 @@ export default {
       });
 
       this.pinItems = pinItems;
+    },
+    findLatestItems: function findLatestItems(number) {
+      let latestItems = [];
+
+      this.$route.meta.forEach((category) => {
+        latestItems = latestItems.concat(category.data.slice(0, number));
+      });
+
+      latestItems.sort((item1, item2) => new Date(item2.time) - new Date(item1.time));
+
+      this.latestItems = latestItems.slice(0, number);
     },
   },
 };
