@@ -1,0 +1,25 @@
+{
+  "message": "Say something~<br>line break is accepted!<br>wowow",
+  "pin_items": [
+    {
+      "directory": "category2",
+      "title": "Item 2 - 6",
+      "message": "🙌🏻"
+    },
+    {
+      "directory": "category1",
+      "title": "Item 1 - 3",
+      "message": "👍🏻"
+    },
+    {
+      "directory": "category3",
+      "title": "Item 3 - 7 (Long Long Long Long)",
+      "message": "👻"
+    },
+    {
+      "directory": "category2",
+      "title": "Item 2 - 5",
+      "message": "😳"
+    }
+  ]
+}

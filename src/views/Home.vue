@@ -1,9 +1,7 @@
 <template>
   <div class="home">
     <div class="home__message">
-      <span>
-        Say something~
-      </span>
+      <span v-html="message" />
     </div>
     <div class="home__board">
       <div class="row">
@@ -71,12 +69,23 @@
 </template>
 
 <script>
+import config from '@/config/home.json';
+
 import Mark from '@/components/Mark.vue';
 
 export default {
   name: 'home',
+  data() {
+    return {
+      message: config.message,
+      pinItems: [],
+    };
+  },
   components: {
     Mark,
+  },
+  mounted() {
+
   },
 };
 </script>

@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import config from '@/config.json';
+import config from '@/config/sidebar.json';
 import categories from '@/articles/index.json';
 
 export default {
