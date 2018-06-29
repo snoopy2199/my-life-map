@@ -103,9 +103,8 @@ export default {
   }
 
   .more-icon {
-    margin-top: 4px;
-    width: 15px;
-    height: 15px;
+    width: 22px;
+    height: 22px;
   }
 }
 </style>
