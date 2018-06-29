@@ -8,44 +8,13 @@
         <h4 class="title">Pin Items</h4>
         <div class="item-group">
           <Mark
-            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
-            imageSite="IMDb"
-            imageLink="http://www.imdb.com/title/tt2380307/"
-            description="hey!"
-            :detail="{
-              directory: '/category1/item3.md',
-              route: '/category1/item3',
-            }"
-          />
-          <Mark
-            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
-            imageSite="IMDb"
-            imageLink="http://www.imdb.com/title/tt2380307/"
-            description="hey!"
-            :detail="{
-              directory: '/category1/item3.md',
-              route: '/category1/item3',
-            }"
-          />
-          <Mark
-            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
-            imageSite="IMDb"
-            imageLink="http://www.imdb.com/title/tt2380307/"
-            description="hey!"
-            :detail="{
-              directory: '/category1/item3.md',
-              route: '/category1/item3',
-            }"
-          />
-          <Mark
-            imageUrl="https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
-            imageSite="IMDb"
-            imageLink="http://www.imdb.com/title/tt2380307/"
-            description="hey!"
-            :detail="{
-              directory: '/category1/item3.md',
-              route: '/category1/item3',
-            }"
+            v-for="pinItem in pinItems"
+            :key="pinItem.title"
+            :imageUrl="pinItem.image.url"
+            :imageSite="pinItem.image.site"
+            :imageLink="pinItem.image.link"
+            :description="pinItem.message"
+            :detail="pinItem.detail"
           />
         </div>
       </div>
@@ -69,6 +38,8 @@
 </template>
 
 <script>
+import _ from 'lodash';
+
 import config from '@/config/home.json';
 
 import Mark from '@/components/Mark.vue';
@@ -85,7 +56,36 @@ export default {
     Mark,
   },
   mounted() {
+    this.findPinItems();
+  },
+  methods: {
+    findPinItems: function findPinItems() {
+      const pinItems = [];
 
+      this.$route.meta.forEach((category) => {
+        const queue = {};
+
+        config.pin_items.forEach((pinItem, index) => {
+          if (pinItem.directory === category.directory) {
+            queue[pinItem.title] = {
+              index,
+              pinItem,
+            };
+          }
+        });
+
+        category.data.forEach((article) => {
+          if (article.title in queue) {
+            const itemInQueue = queue[article.title];
+            const pinItem = _.cloneDeep(article);
+            pinItem.message = itemInQueue.pinItem.message;
+            pinItems[itemInQueue.index] = pinItem;
+          }
+        });
+      });
+
+      this.pinItems = pinItems;
+    },
   },
 };
 </script>
