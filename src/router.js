@@ -5,6 +5,7 @@ import Category from './views/Category.vue';
 import Article from './views/Article.vue';
 import NotFound from './views/404.vue';
 
+import sidebar from './config/sidebar.json';
 import categories from './articles/index.json';
 
 Vue.use(Router);
@@ -28,6 +29,11 @@ const prepareData = (categoriesData) => {
   });
 };
 
+const titleProcessor = (title, shouldAddSiteTitle) => (to, from, next) => {
+  document.title = shouldAddSiteTitle ? `${title} | ${sidebar.title}` : title;
+  next();
+};
+
 const myRouter = Promise.all(promises).then((categoriesData) => {
   prepareData(categoriesData);
 
@@ -37,6 +43,7 @@ const myRouter = Promise.all(promises).then((categoriesData) => {
     name: 'home',
     component: Home,
     meta: data,
+    beforeEnter: titleProcessor(sidebar.title, false),
   });
 
   data.forEach((category) => {
@@ -46,6 +53,7 @@ const myRouter = Promise.all(promises).then((categoriesData) => {
       name: category.directory,
       component: Category,
       meta: category.data,
+      beforeEnter: titleProcessor(category.title, true),
     });
 
     // Article
@@ -55,6 +63,7 @@ const myRouter = Promise.all(promises).then((categoriesData) => {
           path: article.detail.route,
           component: Article,
           meta: article,
+          beforeEnter: titleProcessor(article.title, true),
         });
       }
     });
@@ -64,6 +73,7 @@ const myRouter = Promise.all(promises).then((categoriesData) => {
   routes.push({
     path: '*',
     component: NotFound,
+    beforeEnter: titleProcessor('Not Found', true),
   });
 
   return new Router({
