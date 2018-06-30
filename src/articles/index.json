@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Category 1",
+    "directory": "category1",
+    "route": "/category1"
+  },
+  {
+    "title": "Category 2",
+    "directory": "category2",
+    "route": "/category2"
+  },
+  {
+    "title": "Category 3",
+    "directory": "category3",
+    "route": "/category3"
+  }
+]
