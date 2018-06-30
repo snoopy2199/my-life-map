@@ -103,10 +103,40 @@
 ```
 
 
-## 部署到 GitHub Pages
-#### 初次設定
-#### 後續部署
+## 本機開發
 
+#### 初次
+```shell
+git clone https://github.com/{你的帳號}/{你的專案}.git
+cd {你的專案}
+yarn install
+```
+
+#### 開啟 hot reload
+```shell
+yarn serve
+```
+
+
+## 部署到 GitHub Pages
+我們利用 `gh-pages` 分支將網站部署到 GitHub Pages，我們會建議你將此分支另外 clone 成為不同的資料夾來分開管理實際內容與打包後的檔案
+
+#### 初次
+```shell
+git clone https://github.com/{你的帳號}/{你的專案}.git -b gh-pages {你的專案}-deploy
+```
+
+#### 後續部署
+```shell
+cd {你的專案}
+yarn build
+rm -rf {你的專案}-deploy/*
+cp -r {你的專案}/dist/* {你的專案}-deploy/
+cd {你的專案}-deploy
+git add .
+git commit -m 'Deploy'
+git push
+```
 
 ## 持續追蹤本專案的更新
 請參考 [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
