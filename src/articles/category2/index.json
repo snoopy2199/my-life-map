@@ -2,52 +2,55 @@
   {
     "title": "Item 2 - 6",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://vuejs.org//images/logo.png",
+      "site": "Vue.js",
+      "link": "https://vuejs.org/"
     },
-    "time": "2018/06/13"
+    "short": "你可以利用網站的og標籤取得某個頁面的預覽資訊，這方便你評論一些事物",
+    "time": "2018/06/10"
   },
   {
     "title": "Item 2 - 5",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://lh3.googleusercontent.com/Bb1fu0BYeEpeXzptkqVR6F5fQmunYH9t88kDW2qS5O7QMIk4Myxp61f1GY9Bwhg-8akYTtgTyJsWZ-nnAAW1P_wX3KdqyUE8Vjpbw-XsHDptjxC77O3yUE4fmqK70GBMHnUbhLROCgq_UlZlf4Gwr9MuLueZUDMWgE5MYlvsHUGz3s4nU1UJqjMWlFiNVLMfpOQ4MQaoyhRODk-8OU6bR3sm0X16Q97sE69IFPda73U8CjC4Ludei1sueQEesD8x6BNCJ09uZjsABY19uVFj5UJ-pEvbhUYt0drlHNUliRIo6ZMyHpYFbrsMsX776uStUb_xwb8fQP17ziuLIIpv7jJYf1MeAVjOKHEejnQF26DC1fRfJZ_zulRnpQd62TXWbBY6sJZNPaWcP-E2RYg8tdC8_gjVHMKYSU4BvI8AlJfP5rx2s2VN47WT6NWatULX-3EHqUQltk1f2vGlpr9NoBwonrJcrGBf8nvcGwBj8yBbovtdhHsMiibG5qcwerThSyxyvgFjFUOPTMgLL0YRZnUqj7i9khpT6zVvv23CjI98pR6LaECkW4eJXF-oIx09iTYpiX7b_5QDogyYUI3aFjBX1io8pYgD4HPTnrQf2q-Wj_wQuHZPhAm2po8jnkMGZalR5eqFeO1K3DOt7Te5hGDfwOdIHbNr=w1016-h706-no"
     },
-    "time": "2018/06/11"
+    "short": "當然你也可以使用自己雲端相簿裡的圖片，把這裡當作日記使用，因此我們也支援不含連結的圖片樣式",
+    "time": "2018/06/09"
   },
   {
     "title": "Item 2 - 4",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51UteYi0d5L._AC_SX430_.jpg",
+      "site": "amazon.com",
+      "link": "https://www.amazon.com/dp/B01MY7GL3O"
     },
-    "time": "2018/06/11"
+    "short": "在 Category 1 已經有博客來、Youtube 和 IMDb 的預覽範例，這裡再額外展示一些其他網站的預覽",
+    "time": "2018/06/08"
   },
   {
     "title": "Item 2 - 3",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/3b8c98a8-018c-44ed-ab82-821e6789b31b/BarrySchwartz_2005G-embed.jpg?c=1050%2C550&w=1050",
+      "site": "TED",
+      "link": "https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice?language=zh-tw"
     },
-    "time": "2018/06/11"
+    "time": "2018/06/07"
   },
   {
     "title": "Item 2 - 2",
     "image": {
-      "url": "https://i.ytimg.com/vi/AP18Y5d6_bQ/0.jpg",
-      "site": "YouTube",
-      "link": "https://www.youtube.com/watch?v=AP18Y5d6_bQ"
+      "url": "https://i.kfs.io/album/global/26461651,0v1/fit/500x500.jpg",
+      "site": "KKBOX",
+      "link": "https://www.kkbox.com/tw/tc/song/u3z00XWHHTYnINEmnINEm0XL-index.html"
     },
-    "time": "2018/06/08"
+    "time": "2018/06/06"
   },
   {
     "title": "Item 2 - 1",
     "image": {
-      "url": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg"
+      "url": "http://assets1.ignimgs.com/2014/07/30/littlebigplanet-3-rp-ps4jpg-0d2332.jpg",
+      "site": "IGN",
+      "link": "http://www.ign.com/games/littlebigplanet-3"
     },
     "time": "2018/06/05"
   }

@@ -1,65 +1,68 @@
 [
   {
-    "title": "Item 3 - 7 (Long Long Long Long)",
+    "title": "Item 3 - 7",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg",
+      "site": "IMDb",
+      "link": "https://www.imdb.com/title/tt2380307/"
     },
-    "time": "2018/06/12"
+    "short": "這個類別展示當內容超過一頁會是什麼樣子",
+    "time": "2018/06/14"
   },
   {
-    "title": "Item 3 - 6",
+    "title": "Item 3 - 6 (Long Long Long Long)",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://m.media-amazon.com/images/M/MV5BMTAxNDYxMjg0MjNeQTJeQWpwZ15BbWU3MDcyNTk2OTM@._V1_UY1200_CR89,0,630,1200_AL_.jpg",
+      "site": "IMDb",
+      "link": "https://www.imdb.com/title/tt0398286/"
     },
-    "time": "2018/06/12"
+    "short": "當標題過長，將會自動省略",
+    "time": "2018/06/13"
   },
   {
     "title": "Item 3 - 5",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://m.media-amazon.com/images/M/MV5BMDliOTIzNmUtOTllOC00NDU3LWFiNjYtMGM0NDc1YTMxNjYxXkEyXkFqcGdeQXVyNTM3NzExMDQ@._V1_UY1200_CR105,0,630,1200_AL_.jpg",
+      "site": "IMDb",
+      "link": "https://www.imdb.com/title/tt2245084/"
     },
-    "time": "2018/06/11"
+    "short": "時間的詳細程度也可以由你自己決定",
+    "time": "2018/06/12 13:14:02"
   },
   {
     "title": "Item 3 - 4",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://m.media-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+      "site": "IMDb",
+      "link": "https://www.imdb.com/title/tt2948356/"
     },
-    "time": "2018/06/11"
+    "time": "2018/06/12 13:14"
   },
   {
     "title": "Item 3 - 3",
     "image": {
-      "url": "http://im1.book.com.tw/image/getImage?i=https://www.books.com.tw/img/001/065/02/0010650214.jpg&v=558168b3&w=348&h=348",
-      "site": "博客來",
-      "link": "http://www.books.com.tw/products/0010650214"
+      "url": "https://m.media-amazon.com/images/M/MV5BMjExNjAyNTcyMF5BMl5BanBnXkFtZTgwODQzMjQ3MDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+      "site": "IMDb",
+      "link": "https://www.imdb.com/title/tt1690953/"
     },
     "time": "2018/06/10"
   },
   {
     "title": "Item 3 - 2",
     "image": {
-      "url": "https://i.ytimg.com/vi/AP18Y5d6_bQ/0.jpg",
-      "site": "YouTube",
-      "link": "https://www.youtube.com/watch?v=AP18Y5d6_bQ"
+      "url": "https://m.media-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UY1200_CR89,0,630,1200_AL_.jpg",
+      "site": "IMDb",
+      "link": "https://www.imdb.com/title/tt0110357/"
     },
-    "time": "2018/06/07"
+    "time": "2018/06"
   },
   {
     "title": "Item 3 - 1",
     "image": {
-      "url": "https://i.ytimg.com/vi/AP18Y5d6_bQ/0.jpg",
-      "site": "YouTube",
-      "link": "https://www.youtube.com/watch?v=AP18Y5d6_bQ"
+      "url": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+      "site": "IMDb",
+      "link": "https://www.imdb.com/title/tt2294629/"
     },
-    "time": "2018/06/04"
+    "time": "2018"
   }
 ]

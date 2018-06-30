@@ -7,7 +7,7 @@
       "link": "http://www.books.com.tw/products/0010650214"
     },
     "star": 4.5,
-    "short": "You can write something here",
+    "short": "這是一個比較完整的範例",
     "tags": [
       {
         "color": "#68c1ff",
@@ -27,9 +27,9 @@
   {
     "title": "Item 1 - 2",
     "image": {
-      "url": "https://i.ytimg.com/vi/AP18Y5d6_bQ/0.jpg",
+      "url": "https://i.ytimg.com/vi/IQa-7FzVwe4/0.jpg",
       "site": "YouTube",
-      "link": "https://www.youtube.com/watch?v=AP18Y5d6_bQ"
+      "link": "https://www.youtube.com/watch?v=IQa-7FzVwe4"
     },
     "star": 3,
     "time": "2018/06/09"
@@ -37,11 +37,11 @@
   {
     "title": "Item 1 - 1",
     "image": {
-      "url": "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNjZkNC00ZDhkLWJjMWItN2QyNzFkMDE3ZjAxXkEyXkFqcGdeQXVyODIxMzk5NjA@._V1_UY1200_CR105,0,630,1200_AL_.jpg",
+      "url": "https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
       "site": "IMDb",
-      "link": "http://www.imdb.com/title/tt2380307/"
+      "link": "https://www.imdb.com/title/tt3783958/"
     },
-    "short": "You can write something here",
+    "short": "評分、敘述、標籤與詳細內容都是選擇性的",
     "time": "2018/06/06"
   }
 ]
