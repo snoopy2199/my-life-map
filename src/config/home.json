@@ -1,25 +1,4 @@
 {
-  "message": "這裡可以說說話<br>支援用&lt;br&gt;換行",
-  "pin_items": [
-    {
-      "directory": "category2",
-      "title": "Item 2 - 6",
-      "message": "這個網站使用 Vue.js 建置 🙌🏻"
-    },
-    {
-      "directory": "category1",
-      "title": "Item 1 - 3",
-      "message": "點子就要秀出來 👍🏻"
-    },
-    {
-      "directory": "category2",
-      "title": "Item 2 - 5",
-      "message": "可以放些日常生活"
-    },
-    {
-      "directory": "category2",
-      "title": "Item 2 - 4",
-      "message": "包含你喜歡的東西"
-    }
-  ]
+  "message": "如火如荼建置中！ ⛏",
+  "pin_items": []
 }
