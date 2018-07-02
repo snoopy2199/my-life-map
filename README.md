@@ -142,7 +142,7 @@ git push
 ```
 
 ### CI 部署
-你可以參考我們目前的 `.travis.yml` 檔案，在 Travis CI 設置你的部署流程
+你可以參考我們目前的 `.travis.yml` 檔案，在 [Travis CI](https://travis-ci.org/) 設置你的部署流程
 
 
 ## 持續追蹤本專案的更新
