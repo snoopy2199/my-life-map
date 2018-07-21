@@ -60,7 +60,7 @@ export default {
     this.findLatestItems(4);
   },
   methods: {
-    findPinItems: function findPinItems() {
+    findPinItems() {
       const pinItems = [];
 
       this.$route.meta.forEach((category) => {
@@ -87,7 +87,7 @@ export default {
 
       this.pinItems = pinItems;
     },
-    findLatestItems: function findLatestItems(number) {
+    findLatestItems(number) {
       let latestItems = [];
 
       this.$route.meta.forEach((category) => {

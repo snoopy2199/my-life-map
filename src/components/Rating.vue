@@ -20,7 +20,7 @@ export default {
     },
   },
   methods: {
-    calculateStarType: function calculateStarType(number) {
+    calculateStarType(number) {
       if (this.star >= number) {
         return 1;
       } else if (this.star + 0.5 >= number) {
