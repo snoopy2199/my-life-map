@@ -29,13 +29,12 @@ export default {
 
 <style lang="scss">
 .category {
-  padding: 15px 40px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  padding: 15px 2%;
 }
 
 .category__card-wrap {
-  padding: 15px;
+  display: inline-block;
+  padding: 1%;
+  width: 48%;
 }
 </style>
