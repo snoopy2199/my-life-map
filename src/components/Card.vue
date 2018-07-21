@@ -66,8 +66,6 @@ export default {
 
 <style lang="scss">
 .card {
-  display: flex;
-  width: 500px;
   height: 220px;
   border-radius: 10px;
   background-color: white;
@@ -77,8 +75,8 @@ export default {
 .card__image {
   display: inline-block;
   position: relative;
-  flex: 1;
   height: 100%;
+  width: 35%;
   overflow: hidden;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -123,8 +121,9 @@ export default {
 
 .card__content {
   display: inline-block;
-  flex: 2;
+  vertical-align: top;
   height: 100%;
+  width: 65%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 
@@ -142,13 +141,13 @@ export default {
     padding: 10px 15px;
 
     .title {
+      width: 230px;
       font-size: 20px;
       font-weight: bold;
       line-height: 1.7;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      width: 260px;
     }
     .time {
       font-size: 14px;
