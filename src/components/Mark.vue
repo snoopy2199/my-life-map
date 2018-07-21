@@ -36,7 +36,7 @@ export default {
 .mark {
   margin: 0 20px;
   max-width: 225px;
-  height: 230px;
+  height: 200px;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgba(60, 64, 67, .08), 0 1px 3px 1px rgba(60, 64, 67, .16);
