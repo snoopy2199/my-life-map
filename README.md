@@ -119,7 +119,10 @@ yarn serve
 
 
 ## 部署到 GitHub Pages
-我們利用 `gh-pages` 分支將網站部署到 GitHub Pages，我們會建議你將此分支另外 clone 成為不同的資料夾來分開管理實際內容與打包後的檔案
+我們利用 `gh-pages` 分支將網站部署到 GitHub Pages。你可以選擇手動部署，或是透過CI工具部署
+
+### 手動部署
+我們會建議你將 `gh-pages` 分支另外 clone 成為不同的資料夾來分開管理實際內容與打包後的檔案
 
 #### 初次
 ```shell
@@ -137,6 +140,10 @@ git add .
 git commit -m 'Deploy'
 git push
 ```
+
+### CI 部署
+你可以參考我們目前的 `.travis.yml` 檔案，在 [Travis CI](https://travis-ci.org/) 設置你的部署流程
+
 
 ## 持續追蹤本專案的更新
 請參考 [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
