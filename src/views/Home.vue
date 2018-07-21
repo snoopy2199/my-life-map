@@ -136,7 +136,7 @@ export default {
 
 .home__board {
   .row {
-    margin: 20px 50px;
+    margin: 3% 50px;
   }
 
   .title {
@@ -148,6 +148,7 @@ export default {
   .item-group {
     display: grid;
     grid-template: auto / 1fr 1fr 1fr 1fr;
+    height: 28vh;
   }
 }
 </style>
