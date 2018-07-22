@@ -1,0 +1,810 @@
+[
+  {
+    "title": "薩爾達傳說：曠野之息",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/90/0000085890.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=85890"
+    },
+    "star": 5,
+    "short": "本來沒有很大興趣，但玩著玩著也是路邊小驚喜很多 🎁",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#eaefa1",
+        "text": "遊玩中"
+      }
+    ],
+    "time": "2018/7"
+  },
+  {
+    "title": "底特律：變人",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/93/0000080293.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=80293"
+    },
+    "star": 5,
+    "short": "劇情遊戲，有一點點驚悚成分，題材我滿喜歡的",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2018/7"
+  },
+  {
+    "title": "Splatoon2: Octo Expansion",
+    "image": {
+      "url": "https://i.ytimg.com/vi/NBr6GqyuWnA/0.jpg",
+      "site": "YouTube",
+      "link": "https://www.youtube.com/watch?v=NBr6GqyuWnA"
+    },
+    "star": 3.5,
+    "short": "單機關卡型DLC，本來為了破關後的章魚造型買的，意外發現關卡也滿多巧思",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2018/6"
+  },
+  {
+    "title": "Trials Fusion",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/44/0000068044.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=68044"
+    },
+    "star": 3,
+    "short": "特技摩托車，跟之前特技腳踏車同類型，這款更ㄎㄧㄤ",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      }
+    ],
+    "time": "2018/6"
+  },
+  {
+    "title": "Pokemon Quest",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/13/0000098113.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=98113"
+    },
+    "star": 3,
+    "short": "基本上就是手遊，主要就是收集與訓練寶可夢，戰鬥只需要控制放招與散開時機，也有自動控制模式",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      }
+    ],
+    "time": "2018/6"
+  },
+  {
+    "title": "Nintendo Labo Toy-Con 01: Variety Kit",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/72/0000093472.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=93472"
+    },
+    "star": 4,
+    "short": "概念超級合我胃口，預告一出就立刻下訂，組裝過程也是讓我各種驚嘆，但應該是滿挑人的遊戲",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      }
+    ],
+    "time": "2018/4",
+    "detail": {
+      "directory": "/games/labo.md",
+      "route": "/games/labo"
+    }
+  },
+  {
+    "title": "Splatoon2",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/49/0000087049.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=87049"
+    },
+    "star": 5,
+    "short": "很特別的射擊遊戲，其中魅力無法言喻，沒事就會開起來打幾場 🦑",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#f8ef90",
+        "text": "⭐️ 推薦"
+      }
+    ],
+    "time": "2018/2"
+  },
+  {
+    "title": "女神異聞錄5",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/05/0000072505.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=72505"
+    },
+    "star": 5,
+    "short": "第一次玩系列作，真心潮，但殿堂打著打著滿耗精力的",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      },
+      {
+        "color": "#f8ef90",
+        "text": "⭐️ 推薦"
+      }
+    ],
+    "time": "2017/12"
+  },
+  {
+    "title": "超級瑪利歐奧德賽",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/50/0000087050.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=87050"
+    },
+    "star": 5,
+    "short": "遊戲內容很豐富，小角落驚喜很多，2P控制帽子也很有參與感",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      },
+      {
+        "color": "#f8ef90",
+        "text": "⭐️ 推薦"
+      }
+    ],
+    "time": "2017/12"
+  },
+  {
+    "title": "你裁我剪！斯尼帕Plus",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/17/0000092017.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=92017"
+    },
+    "star": 4.5,
+    "short": "題材特別的益智小品，很需要朋友與默契的遊戲 🤜🏻🤛🏻",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2017/12"
+  },
+  {
+    "title": "太鼓之達人合奏咚咚咚！",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/38/0000089538.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=89538"
+    },
+    "star": 3.5,
+    "short": "沒有主線純打歌，偶爾有祭典，流行歌有點少，有同時入手同捆鼓",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      }
+    ],
+    "time": "2017/10"
+  },
+  {
+    "title": "第二之子",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/53/0000060253.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=60253"
+    },
+    "star": 4.5,
+    "short": "用手把噴漆超酷炫！",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      }
+    ],
+    "time": "2017/10"
+  },
+  {
+    "title": "光明之子",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/45/0000064145.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=64145"
+    },
+    "star": 5,
+    "short": "手繪風，2P操縱簡單但重要的小光點",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      },
+      {
+        "color": "#f8ef90",
+        "text": "⭐️ 推薦"
+      }
+    ],
+    "time": "2017/9"
+  },
+  {
+    "title": "胖公主大冒險",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/85/0000074885.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=74885"
+    },
+    "star": 3.5,
+    "short": "劇情不長，操作容易，遊戲難度差異好像滿大的",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2017/7"
+  },
+  {
+    "title": "槍彈辯駁 1、2 Reload",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/92/0000087692.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=87692"
+    },
+    "star": 3.5,
+    "short": "我喜歡推理但是不喜歡驚悚懸疑 Orz",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      }
+    ],
+    "time": "2017/6"
+  },
+  {
+    "title": "Overcooked",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/52/0000089052.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=89052"
+    },
+    "star": 4.5,
+    "short": "歐美限定，知名友情破壞遊戲XD 魔王關一直打不過啊！",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      }
+    ],
+    "time": "2017/6"
+  },
+  {
+    "title": "Arcade Archives BUBBLE BOBBLE",
+    "image": {
+      "url": "https://store.playstation.com/store/api/chihiro/00_09_000/container/TW/ch/19/JP0571-CUSA03711_00-ASIAHAMPRDC00001/1525856138000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000",
+      "site": "PlayStation Store",
+      "link": "https://store.playstation.com/zh-hant-tw/product/JP0571-CUSA03711_00-ASIAHAMPRDC00001"
+    },
+    "star": 3.5,
+    "short": "泡泡龍復刻！然後不知道為什麼破關沒有跳盃 Orz",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2017/5"
+  },
+  {
+    "title": "勇者鬥惡龍創世小玩家",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/88/0000078288.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=78288"
+    },
+    "star": 5,
+    "short": "有主線故事的精緻版麥塊，房子就是要蓋了又毀蓋了又毀啊 😉",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      },
+      {
+        "color": "#f8ef90",
+        "text": "⭐️ 推薦"
+      }
+    ],
+    "time": "2017/2"
+  },
+  {
+    "title": "Alienation 異種國度",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/48/0000083148.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=83148"
+    },
+    "star": 4,
+    "short": "後期有難度的爽Game，多人的話可以互救，是款時不時會撿起來玩的遊戲",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2017/1"
+  },
+  {
+    "title": "撕紙小郵差",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/32/0000072132.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=72132"
+    },
+    "star": 3.5,
+    "short": "小小大星球的團隊製作，一樣有很創新的互動方法，但場景容易3D暈",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      }
+    ],
+    "time": "2016/12"
+  },
+  {
+    "title": "方根書簡",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/13/0000081813.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=81813"
+    },
+    "star": 3,
+    "short": "島根縣的宣傳遊戲，玩到做惡夢...我可能真心不適合懸疑類的",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2016/12"
+  },
+  {
+    "title": "實況野球2016",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/25/0000081525.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=81525"
+    },
+    "star": 3.5,
+    "short": "實體日版限定，這代打擊有點難，然後雙人是共用畫面",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      }
+    ],
+    "time": "2016/11"
+  },
+  {
+    "title": "Pumped BMX +",
+    "image": {
+      "url": "https://store.playstation.com/store/api/chihiro/00_09_000/container/TW/ch/19/UP4395-CUSA02492_00-ASIA000000000000/1532082787000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000",
+      "site": "PlayStation Store",
+      "link": "https://store.playstation.com/zh-hant-tw/product/UP4395-CUSA02492_00-ASIA000000000000"
+    },
+    "star": 3,
+    "short": "特技腳踏車，由一堆小關卡組成，適合殺時間及舒壓",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      }
+    ],
+    "time": "2016/11"
+  },
+  {
+    "title": "風之旅人",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/29/0000078329.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=78329"
+    },
+    "star": 2.5,
+    "short": "很靈魂(?)的遊戲，畫面美，遇到的夥伴都是線上真人，我們破關時沒有跟夥伴一起走向結局超級殘念...",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      }
+    ],
+    "time": "2016/10"
+  },
+  {
+    "title": "小小大星球3",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/85/0000070585.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=70585"
+    },
+    "star": 5,
+    "short": "遊戲內容滿豐富的，前後玩了很久，關卡很有特色，也有另外買DLC",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d3e7de",
+        "text": "破關"
+      },
+      {
+        "color": "#f8ef90",
+        "text": "⭐️ 推薦"
+      }
+    ],
+    "time": "2016/10"
+  },
+  {
+    "title": "Tricky Towers",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/61/0000087661.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=87661"
+    },
+    "star": 4,
+    "short": "快速來場對戰的好遊戲！",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#d1c0f6",
+        "text": "plus 免費"
+      }
+    ],
+    "time": "2016/9"
+  },
+  {
+    "title": "MAGICKA 2",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/27/0000070627.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=70627"
+    },
+    "star": 3,
+    "short": "招式很多，情急按得出來的就習慣的那幾種XD 有隊友傷害 😏",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      }
+    ],
+    "time": "2016/9"
+  },
+  {
+    "title": "Don't Starve: Console Edition",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/58/0000066858.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=66858"
+    },
+    "star": 3,
+    "short": "荒島求生類遊戲，氣氛小陰暗，遊戲內容滿豐富的，死了就要重來",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      }
+    ],
+    "time": "2016/8"
+  },
+  {
+    "title": "看門狗",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/10/0000061810.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=61810"
+    },
+    "star": 3.5,
+    "short": "題材很特殊，遊戲類型算是解謎+動作",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      }
+    ],
+    "time": "2016/2"
+  },
+  {
+    "title": "蘇菲的鍊金工房",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/09/0000078009.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=78009"
+    },
+    "star": 3.5,
+    "short": "非系列作粉絲，畫面很美，玩起來很悠哉",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#dddddd",
+        "text": "放置中"
+      }
+    ],
+    "time": "2016/2"
+  },
+  {
+    "title": "Tsum Tsum",
+    "image": {
+      "url": "https://lh3.ggpht.com/mpxV5bH8LYak0R5ZFp8DpFzKobjPlvAqh0O5X8GXAuu3rUZyR5kQBdJziFpUnAyBqWU",
+      "site": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.linecorp.LGTMTMG&hl=zh_TW"
+    },
+    "star": 3,
+    "short": "療癒系，基本上重就是各種收集喜歡的迪士尼角色，活動一個月一次",
+    "tags": [
+      {
+        "color": "#cae4bc",
+        "text": "Android"
+      }
+    ],
+    "time": ""
+  },
+  {
+    "title": "COOKING DASH",
+    "image": {
+      "url": "https://lh3.googleusercontent.com/Bi761jXYWoKeJYTRGDBMvmNaimifjOG3mxY45Eic8miqO_SJq4aQ9mPL4H1Tj8YUPQ",
+      "site": "Google Play",
+      "link": "https://play.google.com/store/apps/details?id=com.playfirst.cookingdashx&hl=zh_TW"
+    },
+    "star": 4,
+    "short": "從很早期就開始玩，到後來遊戲內容愈來愈多w 玩一段時間後會開始缺錢和金條",
+    "tags": [
+      {
+        "color": "#cae4bc",
+        "text": "Android"
+      }
+    ],
+    "time": ""
+  },
+  {
+    "title": "家鄉物語",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/35/0000065735.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=6573"
+    },
+    "star": 1,
+    "short": "耐玩度很低...",
+    "tags": [
+      {
+        "color": "#f2c095",
+        "text": "3DS"
+      }
+    ],
+    "time": "2013/12"
+  },
+  {
+    "title": "符文工廠4",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/24/0000048824.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=48824"
+    },
+    "star": 4,
+    "short": "沒有中文好可惜系列 😢",
+    "tags": [
+      {
+        "color": "#f2c095",
+        "text": "3DS"
+      }
+    ],
+    "time": "2013/12"
+  },
+  {
+    "title": "動物之森",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/68/0000040568.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=40568"
+    },
+    "star": 4,
+    "short": "沒有中文好可惜系列 😢",
+    "tags": [
+      {
+        "color": "#f2c095",
+        "text": "3DS"
+      }
+    ],
+    "time": "2013/12"
+  },
+  {
+    "title": "奇幻生活",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/53/0000030953.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=30953"
+    },
+    "star": 4,
+    "short": "沒有中文好可惜系列 😢",
+    "tags": [
+      {
+        "color": "#f2c095",
+        "text": "3DS"
+      }
+    ],
+    "time": "2013/12"
+  }
+]

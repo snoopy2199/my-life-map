@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "title": "Daily",
+    "directory": "daily",
+    "route": "/daily"
+  },
+  {
+    "title": "Books",
+    "directory": "books",
+    "route": "/books"
+  },
+  {
+    "title": "Movies",
+    "directory": "movies",
+    "route": "/movies"
+  },
+  {
+    "title": "Games",
+    "directory": "games",
+    "route": "/games"
+  },
+  {
+    "title": "Videos",
+    "directory": "videos",
+    "route": "/videos"
+  }
+]
