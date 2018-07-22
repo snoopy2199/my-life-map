@@ -94,9 +94,14 @@ export default {
         latestItems = latestItems.concat(category.data.slice(0, number));
       });
 
-      latestItems.sort((item1, item2) => new Date(item2.time) - new Date(item1.time));
+      latestItems.sort((item1, item2) =>
+        this.parseTimeStringToDate(item2.time) - this.parseTimeStringToDate(item1.time));
 
       this.latestItems = latestItems.slice(0, number);
+    },
+    parseTimeStringToDate(timeString) {
+      // For FireFox: '2018/7' => invalid date
+      return timeString.split('/').length === 2 ? new Date(`${timeString}/1`) : new Date(timeString);
     },
   },
 };
