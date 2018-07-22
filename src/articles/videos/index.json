@@ -1,1 +1,42 @@
-[]
+[
+  {
+    "title": "Dan Pink談叫人意想不到的激勵科學",
+    "image": {
+      "url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/110884_800x600.jpg?c=525%2C275&w=525",
+      "site": "TED",
+      "link": "https://www.ted.com/talks/dan_pink_on_motivation?language=zh-TW"
+    },
+    "short": "動機，單純的力量",
+    "time": "2018/6/6"
+  },
+  {
+    "title": "Barry Schwartz 談選擇的癱瘓",
+    "image": {
+      "url": "https://pi.tedcdn.com/r/talkstar-photos.s3.amazonaws.com/uploads/3b8c98a8-018c-44ed-ab82-821e6789b31b/BarrySchwartz_2005G-embed.jpg?c=525%2C275&w=525",
+      "site": "TED",
+      "link": "https://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice?language=zh-tw"
+    },
+    "short": "選擇過多會讓人不快樂",
+    "time": "2017/11/10"
+  },
+  {
+    "title": "麥可·基梅爾: 為什麼性別平等對大家都好 － 包含男性",
+    "image": {
+      "url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/b7d5730562107b08b7ab54cf26b503ce049943c7_2880x1620.jpg?c=525%2C275&w=525",
+      "site": "TED",
+      "link": "https://www.ted.com/talks/michael_kimmel_why_gender_equality_is_good_for_everyone_men_included?language=zh-tw"
+    },
+    "short": "一對父子檔開車出車禍，父親當場死亡，兒子被送進手術室，醫生說：「我不能動這個手術，他是我兒子」",
+    "time": "2016/4/14"
+  },
+  {
+    "title": "賽門西奈克：偉大的領袖如何鼓動行為",
+    "image": {
+      "url": "https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/04916ee6e81065c8333e6546184af512eee37bbe_2880x1620.jpg?c=525%2C275&w=525",
+      "site": "TED",
+      "link": "https://www.ted.com/talks/simon_sinek_how_great_leaders_inspire_action?language=zh-tw"
+    },
+    "short": "準備報告時常常會想起的一篇",
+    "time": "2014"
+  }
+]
