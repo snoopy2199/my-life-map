@@ -10,7 +10,7 @@
     <div class="card__content">
       <div class="wrapper">
         <div class="primary">
-          <div class="title">{{title}}</div>
+          <div class="title" :title="title">{{title}}</div>
           <div class="time">{{time}}</div>
         </div>
         <div class="more">
