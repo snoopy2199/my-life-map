@@ -14,7 +14,7 @@ export default {
   props: {
     star: {
       required: true,
-      validator: function validator(value) {
+      validator(value) {
         return (value >= 0) && (value <= 5);
       },
     },
