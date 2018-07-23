@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - "9"
+branches:
+  only:
+    - master
 cache:
   yarn: true
 install:
@@ -12,3 +15,5 @@ deploy:
   local-dir: dist
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
+  on:
+    branch: master
