@@ -105,7 +105,7 @@
 
 ## 本機開發
 
-#### 初次
+#### 初次 (你需要事先安裝好 [yarn](https://yarnpkg.com/lang/en/) )
 ```shell
 git clone https://github.com/{你的帳號}/{你的專案}.git
 cd {你的專案}
@@ -142,7 +142,8 @@ git push
 ```
 
 ### CI 部署
-你可以參考我們目前的 `.travis.yml` 檔案，在 [Travis CI](https://travis-ci.org/) 設置你的部署流程
+你可以參考我們目前的 `.travis.yml` 檔案，在 [Travis CI](https://travis-ci.org/) 設置你的部署流程   
+*記得給你的 CI 一組 GitHub access token，好讓他可以替你更新 `gh-pages` 分支
 
 
 ## 持續追蹤本專案的更新
