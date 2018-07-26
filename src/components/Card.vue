@@ -10,13 +10,15 @@
     <div class="card__content">
       <div class="wrapper">
         <div class="primary">
-          <div class="title" :title="title">{{title}}</div>
-          <div class="time">{{time}}</div>
-        </div>
-        <div class="more">
-          <router-link v-if="detail" class="more-link" :to="detail.route">
-            <img class="more-icon" src="../assets/baseline_call_made_black_18dp.png" />
-          </router-link>
+          <div class="title-and-time">
+            <div class="title" :title="title">{{title}}</div>
+            <div class="time">{{time}}</div>
+          </div>
+          <div v-if="detail" class="more">
+            <router-link class="more-link" :to="detail.route">
+              <img class="more-icon" src="../assets/baseline_call_made_black_18dp.png" />
+            </router-link>
+          </div>
         </div>
         <div class="supporting">
           <Rating v-if="star" :star="star" />
@@ -131,17 +133,22 @@ export default {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: 7fr 1fr;
     grid-template-rows: 2fr 3fr 1fr;
   }
 
   .primary {
-    grid-column: 1;
     grid-row: 1;
+    box-sizing: border-box;
     padding: 10px 15px;
+    display: flex;
+  }
+
+  .title-and-time {
+    flex: 1;
+    width: 0;
+    overflow: hidden;
 
     .title {
-      width: 230px;
       font-size: 20px;
       font-weight: bold;
       line-height: 1.7;
@@ -156,12 +163,12 @@ export default {
   }
 
   .more {
-    grid-column: 2;
-    grid-row: 1;
+    flex: none;
+    width: 40px;
 
     .more-link {
       display: block;
-      margin: 14px 5px;
+      margin: 6px 0 0 12px;
       opacity: 0.4;
 
       &:hover {
@@ -176,7 +183,6 @@ export default {
   }
 
   .supporting {
-    grid-column: 1 / 3;
     grid-row: 2;
     padding: 10px 15px;
     max-height: 110px;
@@ -188,7 +194,6 @@ export default {
   }
 
   .tags {
-    grid-column: 1 / 3;
     grid-row: 3;
     padding: 0 10px;
 
