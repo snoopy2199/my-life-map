@@ -94,8 +94,15 @@ export default {
         latestItems = latestItems.concat(category.data.slice(0, number));
       });
 
-      latestItems.sort((item1, item2) =>
-        this.parseTimeStringToDate(item2.time) - this.parseTimeStringToDate(item1.time));
+      latestItems.sort((item1, item2) => {
+        let time1 = this.parseTimeStringToDate(item1.time);
+        let time2 = this.parseTimeStringToDate(item2.time);
+
+        time1 = Number.isNaN(time1.getTime()) ? 0 : time1;
+        time2 = Number.isNaN(time2.getTime()) ? 0 : time2;
+
+        return time2 - time1;
+      });
 
       this.latestItems = latestItems.slice(0, number);
     },
