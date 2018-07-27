@@ -1,5 +1,25 @@
 [
   {
+    "title": "Overcooked 2",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/09/0000098609.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=98609"
+    },
+    "short": "預購中",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#ef7676",
+        "text": "預購"
+      }
+    ],
+    "time": ""
+  },
+  {
     "title": "薩爾達傳說：曠野之息",
     "image": {
       "url": "https://p2.bahamut.com.tw/B/ACG/c/90/0000085890.PNG",
@@ -117,6 +137,10 @@
       {
         "color": "#f3b6b6",
         "text": "Switch"
+      },
+      {
+        "color": "#ef7676",
+        "text": "預購"
       }
     ],
     "time": "2018/4",
@@ -194,6 +218,10 @@
         "text": "破關"
       },
       {
+        "color": "#ef7676",
+        "text": "預購"
+      },
+      {
         "color": "#f8ef90",
         "text": "⭐️ 推薦"
       }
@@ -221,6 +249,10 @@
       {
         "color": "#d3e7de",
         "text": "破關"
+      },
+      {
+        "color": "#ef7676",
+        "text": "預購"
       }
     ],
     "time": "2017/12"
@@ -242,6 +274,10 @@
       {
         "color": "#f6d6ec",
         "text": "單機雙人"
+      },
+      {
+        "color": "#ef7676",
+        "text": "預購"
       }
     ],
     "time": "2017/10"
@@ -744,7 +780,7 @@
     "image": {
       "url": "https://p2.bahamut.com.tw/B/ACG/c/35/0000065735.PNG",
       "site": "巴哈姆特電玩資訊站",
-      "link": "https://acg.gamer.com.tw/acgDetail.php?s=6573"
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=65735"
     },
     "star": 1,
     "short": "耐玩度很低...",
@@ -752,6 +788,10 @@
       {
         "color": "#f2c095",
         "text": "3DS"
+      },
+      {
+        "color": "#ef7676",
+        "text": "預購"
       }
     ],
     "time": "2013/12"
