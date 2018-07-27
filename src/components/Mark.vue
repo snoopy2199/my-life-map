@@ -2,13 +2,17 @@
   <div class="mark">
     <a class="mark__image" :href="imageLink" target="_blank">
       <img class="layer image" :src="imageUrl" />
+      <div class="category-label">{{category}}</div>
       <div v-if="imageLink" class="layer mask usually-hide">
         <span>{{imageSite}}</span>
         <img class="open-in-new-icon" src="../assets/baseline_open_in_new_white_18dp.png" />
       </div>
     </a>
     <div class="mark__description">
-      <span>{{description}}</span>
+      <div class="description">
+        <div class="support" :title="title">{{title}}</div>
+        <div class="main" :title="description">{{description}}</div>
+      </div>
       <router-link v-if="detail" class="more-link" :to="detail.route">
         <img class="more-icon" src="../assets/baseline_call_made_black_18dp.png" />
       </router-link>
@@ -26,6 +30,8 @@ export default {
     },
     imageSite: String,
     imageLink: String,
+    category: String,
+    title: String,
     description: String,
     detail: Object,
   },
@@ -35,7 +41,7 @@ export default {
 <style lang="scss">
 .mark {
   margin: 0 20px;
-  max-width: 225px;
+  min-width: 0;
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 1px 1px 0 rgba(60, 64, 67, .08), 0 1px 3px 1px rgba(60, 64, 67, .16);
@@ -45,10 +51,22 @@ export default {
   display: inline-block;
   position: relative;
   width: 100%;
-  height: calc(100% - 35px);
+  height: calc(100% - 55px);
   overflow: hidden;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+
+  .category-label {
+    position: absolute;
+    background-color: $color-primary-light;
+    color: $color-text-on-primary;
+    top: 10px;
+    right: 0;
+    font-size: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    padding: 2px 5px;
+  }
 
   .image {
     object-fit: cover;
@@ -93,6 +111,24 @@ export default {
   justify-content: space-between;
   margin: 0 10px;
 
+  .description {
+    overflow: hidden;
+
+    .support {
+      font-size: 12px;
+      color: #808080;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .main {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
   .more-link {
     opacity: 0.4;
 
@@ -102,6 +138,7 @@ export default {
   }
 
   .more-icon {
+    margin-top: 16px;
     width: 22px;
     height: 22px;
   }
