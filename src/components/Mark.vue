@@ -10,8 +10,8 @@
     </a>
     <div class="mark__description">
       <div class="description">
-        <div class="support" :title="title">{{title}}</div>
-        <div class="main" :title="description">{{description}}</div>
+        <div class="support text" :title="title">{{title}}</div>
+        <div class="main text" :title="description">{{description}}</div>
       </div>
       <router-link v-if="detail" class="more-link" :to="detail.route">
         <img class="more-icon" src="../assets/baseline_call_made_black_18dp.png" />
@@ -114,18 +114,15 @@ export default {
   .description {
     overflow: hidden;
 
-    .support {
-      font-size: 12px;
-      color: #808080;
+    .text {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
     }
 
-    .main {
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+    .support {
+      font-size: 12px;
+      color: #808080;
     }
   }
 
