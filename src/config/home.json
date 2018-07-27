@@ -1,4 +1,25 @@
 {
-  "message": "如火如荼建置中！ ⛏",
-  "pin_items": []
+  "message": "<div style=\"font-size: 20px;\">這裡是組織我生活的各種東西 (･ω´･ )</div>",
+  "pin_items": [
+    {
+      "directory": "games",
+      "title": "Splatoon2",
+      "message": "首個時數200的遊戲！"
+    },
+    {
+      "directory": "games",
+      "title": "Nintendo Labo Toy-Con 01: Variety Kit",
+      "message": "超！酷！炫！ 🤩"
+    },
+    {
+      "directory": "videos",
+      "title": "叫人意想不到的激勵科學",
+      "message": "近期很有感觸的一則"
+    },
+    {
+      "directory": "games",
+      "title": "Overcooked 2",
+      "message": "已預購 🙌🏻"
+    }
+  ]
 }
