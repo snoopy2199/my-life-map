@@ -6,18 +6,27 @@
       "site": "巴哈姆特電玩資訊站",
       "link": "https://acg.gamer.com.tw/acgDetail.php?s=98609"
     },
-    "short": "預購中",
+    "star": 4,
+    "short": "這次可以丟！這次可以連線玩！這次有Kevin！",
     "tags": [
       {
         "color": "#f3b6b6",
         "text": "Switch"
       },
       {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
         "color": "#ef7676",
         "text": "預購"
+      },
+      {
+        "color": "#eaefa1",
+        "text": "遊玩中"
       }
     ],
-    "time": ""
+    "time": "2018/8"
   },
   {
     "title": "薩爾達傳說：曠野之息",
