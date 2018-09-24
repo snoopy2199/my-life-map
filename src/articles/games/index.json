@@ -1,5 +1,95 @@
 [
   {
+    "title": "Go Vacation",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/98/0000097798.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=97798"
+    },
+    "star": 3.5,
+    "short": "突然間看到這款遊戲，覺得內容很豐富休閒就買了，剛開始體驗中",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      }
+    ],
+    "time": "2018/9/22"
+  },
+  {
+    "title": "魔法氣泡俄羅斯方塊 S",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/59/0000087059.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=87059"
+    },
+    "short": "因為公司要辦社內比賽，就去載了試玩版練習，試玩版基本就包含了各式基本功能，超級殺時間！",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#81dbc1",
+        "text": "試玩"
+      }
+    ],
+    "time": "2018/9/21"
+  },
+  {
+    "title": "Scribblenauts Mega Pack",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/23/0000101123.PNG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=101123"
+    },
+    "star": 4,
+    "short": "舊作組合包，之前在PC玩過其中一款，覺得遊戲方式很棒。這次在帳號跳去美國碰巧發現的，立刻刷來回味！",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#eaefa1",
+        "text": "遊玩中"
+      }
+    ],
+    "time": "2018/9/19"
+  },
+    {
+    "title": "Nintendo Entertainment System",
+    "image": {
+      "url": "https://www.nintendo.com/switch/assets/images/switch/facebook.jpg",
+      "site": "Nintendo",
+      "link": "https://www.nintendo.com/switch/online-service/nes/"
+    },
+    "short": "買了日版的家庭方案，結果鎖區，需要跳去美國載這個系列。目前玩一輪下來，網球還滿好玩的～",
+    "tags": [
+      {
+        "color": "#f3b6b6",
+        "text": "Switch"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      }
+    ],
+    "time": "2018/9/19"
+  },
+  {
     "title": "Overcooked 2",
     "image": {
       "url": "https://p2.bahamut.com.tw/B/ACG/c/09/0000098609.PNG",
