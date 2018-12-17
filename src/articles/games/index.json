@@ -1,5 +1,30 @@
 [
   {
+    "title": "Unravel Two",
+    "image": {
+      "url": "https://p2.bahamut.com.tw/B/ACG/c/77/0000098377.JPG",
+      "site": "巴哈姆特電玩資訊站",
+      "link": "https://acg.gamer.com.tw/acgDetail.php?s=98377"
+    },
+    "star": 4,
+    "short": "之前1代就耳聞過不錯玩的動作解謎遊戲，在特價區發現出了2代，又能夠單機合作就刷了！",
+    "tags": [
+      {
+        "color": "#9ec3f3",
+        "text": "PS4"
+      },
+      {
+        "color": "#f6d6ec",
+        "text": "單機雙人"
+      },
+      {
+        "color": "#eaefa1",
+        "text": "遊玩中"
+      }
+    ],
+    "time": "2018/12/1"
+  },
+  {
     "title": "Go Vacation",
     "image": {
       "url": "https://p2.bahamut.com.tw/B/ACG/c/98/0000097798.PNG",
@@ -63,8 +88,8 @@
         "text": "單機雙人"
       },
       {
-        "color": "#eaefa1",
-        "text": "遊玩中"
+        "color": "#dddddd",
+        "text": "放置中"
       }
     ],
     "time": "2018/9/19"
@@ -129,8 +154,8 @@
         "text": "Switch"
       },
       {
-        "color": "#eaefa1",
-        "text": "遊玩中"
+        "color": "#dddddd",
+        "text": "放置中"
       }
     ],
     "time": "2018/7"
