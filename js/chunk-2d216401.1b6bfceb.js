@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d216401"],{c251:function(t,n){t.exports="實況存檔 📼\n- [遙控蟲蟲 + 釣竿(上)](https://youtu.be/WVfXhxO1bVM)\n- [釣竿(下) + 摩托車](https://youtu.be/i2Nr5p04v1o)\n- [鋼琴](https://youtu.be/3ilbx14wQ3A)\n- [房子](https://youtu.be/Li4ol2FlrNg)\n\n剪輯版 🎥\n- [遙控蟲蟲 + 釣竿 + 摩托車](https://youtu.be/YfFuaupG7gY)\n"}}]);
+//# sourceMappingURL=chunk-2d216401.1b6bfceb.js.map
